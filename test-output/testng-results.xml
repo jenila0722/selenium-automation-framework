@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-17T22:05:46 IST" name="Default suite" finished-at="2026-10-17T22:05:55 IST" duration-ms="8750">
+    <groups>
+    </groups>
+    <test started-at="2026-10-17T22:05:46 IST" name="Default test" finished-at="2026-10-17T22:05:55 IST" duration-ms="8750">
+      <class name="com.shopeasy.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.shopeasy.tests.LoginTest@7c7a06ec]" started-at="2026-10-17T22:05:47 IST" name="setup" finished-at="2026-10-17T22:05:51 IST" duration-ms="3857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.shopeasy.tests.LoginTest@7c7a06ec]" started-at="2026-10-17T22:05:51 IST" name="validateLogin" data-provider="Logindata" finished-at="2026-10-17T22:05:51 IST" duration-ms="409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.shopeasy.tests.LoginTest@7c7a06ec]" started-at="2026-10-17T22:05:51 IST" name="cleanUp" finished-at="2026-10-17T22:05:51 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.shopeasy.tests.LoginTest@7c7a06ec]" started-at="2026-10-17T22:05:51 IST" name="setup" finished-at="2026-10-17T22:05:53 IST" duration-ms="1183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.shopeasy.tests.LoginTest@7c7a06ec]" started-at="2026-10-17T22:05:53 IST" name="validateLogin" data-provider="Logindata" finished-at="2026-10-17T22:05:53 IST" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.shopeasy.tests.LoginTest@7c7a06ec]" started-at="2026-10-17T22:05:53 IST" name="cleanUp" finished-at="2026-10-17T22:05:53 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.shopeasy.tests.LoginTest@7c7a06ec]" started-at="2026-10-17T22:05:53 IST" name="setup" finished-at="2026-10-17T22:05:54 IST" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.shopeasy.tests.LoginTest@7c7a06ec]" started-at="2026-10-17T22:05:54 IST" name="validateLogin" data-provider="Logindata" finished-at="2026-10-17T22:05:55 IST" duration-ms="348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.shopeasy.tests.LoginTest@7c7a06ec]" started-at="2026-10-17T22:05:55 IST" name="cleanUp" finished-at="2026-10-17T22:05:55 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.shopeasy.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
